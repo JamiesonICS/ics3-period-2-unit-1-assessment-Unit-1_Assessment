@@ -1,0 +1,21 @@
+{
+  "postCreateCommand": "bash ./.devcontainer/startup.sh",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "customizations": {
+    "vscode": {
+      "dev.containers.defaultExtensions": [
+        "profimedica.live-preview",
+        "MS-vsliveshare.vsliveshare",
+        "esbenp.prettier-vscode"
+      ],
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "ms-vscode.live-server"
+      ]
+      
+    
+    }
+  }
+}
